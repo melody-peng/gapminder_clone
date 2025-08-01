@@ -3,7 +3,7 @@
 # Summary
 This project, “200 Countries, 200 Years, 4 Minutes,” is a recreation of the famous data visualization by Hans Rosling: [200 Countries, 200 Years, 4 Minutes](https://www.youtube.com/watch?v=jbkSRLYSojo). I used `pandas` and `sqlite3` to build the database, used `matplotlib` for proof of concept, and finally created the finished product with `plotly.express`.
 
-# 如何重現
+# Approach
 - Install Miniconda
 - Create the environment using the environment.yml file:
 
