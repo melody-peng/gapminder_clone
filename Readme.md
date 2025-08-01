@@ -1,15 +1,16 @@
-# 練習專案一: 200個國家200年4分鐘
+# Project: 200 Countries, 200 Years, 4 Minutes
 
-# 簡介
-這個專案「兩百個國家、兩百年、四分鐘」復刻了名聞遐邇的 Hans Rosling's [200 Countries, 200 Years, 4 Minutes](https://www.youtube.com/watch?v=jbkSRLYSojo) 資料視覺化，我們使用了 `pandas` 與 `sqlite3` 建立了資料庫，利用 `matplotlib` 進行概念驗證，最後以 plotly.express 做出成品。
+# Summary
+This project, “200 Countries, 200 Years, 4 Minutes,” is a recreation of the famous data visualization by Hans Rosling: [200 Countries, 200 Years, 4 Minutes](https://www.youtube.com/watch?v=jbkSRLYSojo). I used `pandas` and `sqlite3` to build the database, used `matplotlib` for proof of concept, and finally created the finished product with `plotly.express`.
 
 # 如何重現
-- 安裝 Miniconda
-- 依據 environment.yml 建立環境：
+- Install Miniconda
+- Create the environment using the environment.yml file:
 
 ```bash
 conda env create -f environment.yml
 ```
-- 將 `data/` 資料夾中的四個 CSV 檔案置放於工作目錄中的 `data/` 資料夾。
-- 啟動環境並執行 `python create_gapminder_db.py` 就能在 `data/` 資料夾中建立 `gapminder.db`
-- 啟動環境並執行 `python plot_with_px.py` 就能生成 `gapminder_clone.html`
+- Place the four CSV files from the `data/` folder into the `data/` directory of your working directory.
+- Activate the environment and run `python create_gapminder_db.py` to generate `gapminder.db` in the `data/` folder.
+- Activate the environment and run `python plot_with_px.py` to generate `gapminder_clone.html`.
+
